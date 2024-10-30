@@ -1,0 +1,668 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <m:GetReferenceDataResponse xmlns:m="http://www.cargo3.ru">
+            <m:return xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <m:Key>ErrorCodes</m:Key>
+                <m:List>
+                    <m:Key>01010</m:Key>
+                    <m:Value xsi:type="xs:string">Web-сервис в текущий момент отключен</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03050</m:Key>
+                    <m:Value xsi:type="xs:string">Документ нельзя изменить</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05024</m:Key>
+                    <m:Value xsi:type="xs:string">Документ не может включать объявленную стоимость груза, так как в
+                        договоре не предусмотрена данная услуга
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05022</m:Key>
+                    <m:Value xsi:type="xs:string">Документ не может включать страхование, так как в договоре не
+                        предусмотрена данная услуга
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04040</m:Key>
+                    <m:Value xsi:type="xs:string">Документ принадлежит другому клиенту</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03060</m:Key>
+                    <m:Value xsi:type="xs:string">Изменение пароля запрещено</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03061</m:Key>
+                    <m:Value xsi:type="xs:string">Изменение пароля возможно только при входе с административным
+                        паролем
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>07011</m:Key>
+                    <m:Value xsi:type="xs:string">Клиент не работает с этим партнёром</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04032</m:Key>
+                    <m:Value xsi:type="xs:string">Клиентский номер уже используется</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>07000</m:Key>
+                    <m:Value xsi:type="xs:string">Контрагент не является интернет-магазином</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03030</m:Key>
+                    <m:Value xsi:type="xs:string">Нарушение прав доступа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02041</m:Key>
+                    <m:Value xsi:type="xs:string">Неверно сформирована структура для записи данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02021</m:Key>
+                    <m:Value xsi:type="xs:string">Неверно сформирована структура для получения данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02031</m:Key>
+                    <m:Value xsi:type="xs:string">Неверно сформированы параметры для записи данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02011</m:Key>
+                    <m:Value xsi:type="xs:string">Неверно сформированы параметры для получения данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04051</m:Key>
+                    <m:Value xsi:type="xs:string">Неверно указан выгружаемый справочник</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04061</m:Key>
+                    <m:Value xsi:type="xs:string">Неверно указан загружаемый справочник</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04011</m:Key>
+                    <m:Value xsi:type="xs:string">Неверный формат номера документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05182</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный вид документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05511</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный вид контрагента</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05501</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный вид получаемого списка документов</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>06000</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный вид получаемой формы документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05027</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код валюты</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05031</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код вида груза</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05041</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код географии отправителя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05051</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код географии получателя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04070</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код группы</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05201</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код единицы измерения</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05061</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код контактного лица</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05101</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код отправителя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05071</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код офиса</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>10020</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код ошибки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05193</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код партии товаров</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>07010</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный код партнёра, выполняющего доставку</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05151</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код плательщика</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05081</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код подразделения</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05111</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код получателя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05091</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код проекта</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05195</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код серийного номера товара</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05171</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код способа доставки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05161</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код способа оплаты</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05011</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код срочности</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05211</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код ставки НДС</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05191</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код товара</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05021</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код услуги</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05197</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код характеристики товара</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05183</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный тип документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>10010</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный формат файла</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>06010</m:Key>
+                    <m:Value xsi:type="xs:string">Не найдена печатная форма</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04020</m:Key>
+                    <m:Value xsi:type="xs:string">Не найден такой документ в базе</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03041</m:Key>
+                    <m:Value xsi:type="xs:string">Не определён основной договор</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>06020</m:Key>
+                    <m:Value xsi:type="xs:string">Не удалось сформировать печатную форму</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05140</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан адрес электронной почты</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05141</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан адрес электронной почты отправителя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05142</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан адрес электронной почты получателя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05040</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана география отправителя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05050</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана география получателя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05120</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан адрес</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05122</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан адрес доставки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05121</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан адрес забора</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05200</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана единица измерения</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05025</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо указать объявленную стоимость груза
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05192</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана партия товаров</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05010</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана срочность доставки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05210</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана ставка НДС</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05023</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо указать страховую стоимость груза
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05026</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана сумма, которую необходимо взять с получателя (COD)
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05020</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана услуга</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05196</m:Key>
+                    <m:Value xsi:type="xs:string">Не указана характеристика товара</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05030</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан вид груза</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05181</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан вид документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05510</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан вид контрагента</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05500</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан вид получаемого списка документов</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04050</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан выгружаемый справочник</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04060</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан загружаемый справочник</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04010</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан номер документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04012</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан номер упаковки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05060</m:Key>
+                    <m:Value xsi:type="xs:string">Не указано контактное лицо</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05063</m:Key>
+                    <m:Value xsi:type="xs:string">Не указано контактное лицо отправителя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05064</m:Key>
+                    <m:Value xsi:type="xs:string">Не указано контактное лицо получателя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05080</m:Key>
+                    <m:Value xsi:type="xs:string">Не указано подразделение</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05100</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан отправитель</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05070</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан офис</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05150</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан плательщик</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05110</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан получатель</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05090</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан проект</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05194</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан серийный номер товара</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05170</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан способ доставки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05160</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан способ оплаты</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05130</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан телефон</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05131</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан телефон отправителя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05132</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан телефон получателя</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05190</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан товар</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05180</m:Key>
+                    <m:Value xsi:type="xs:string">Не указан уникальный код документа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04030</m:Key>
+                    <m:Value xsi:type="xs:string">Номер документа уже используется</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>04031</m:Key>
+                    <m:Value xsi:type="xs:string">Номер упаковки уже используется</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>08010</m:Key>
+                    <m:Value xsi:type="xs:string">Отключена регистрация изменений состояний документов</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03020</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствует информация по правам доступа</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02050</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствует склад в настройках клиента</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02040</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствует структура для записи данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02020</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствует структура для получения данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02030</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствуют параметры для записи данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02010</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствуют параметры для получения данных</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03010</m:Key>
+                    <m:Value xsi:type="xs:string">Ошибка авторизации доступа к базе</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05152</m:Key>
+                    <m:Value xsi:type="xs:string">Плательщиком может быть только отправитель или получатель</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>03040</m:Key>
+                    <m:Value xsi:type="xs:string">По договору заблокировано выполнение операций</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05062</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо указать контактное лицо</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05082</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо указать подразделение</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05083</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо указать подразделение только из списка
+                        предопределённых
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05092</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо указать проект</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02054</m:Key>
+                    <m:Value xsi:type="xs:string">Пустая таблица составного груза</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>06030</m:Key>
+                    <m:Value xsi:type="xs:string">Скан документа недоступен</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>08011</m:Key>
+                    <m:Value xsi:type="xs:string">Нельзя удалить запись изменений, по которой не было запроса
+                        информации
+                    </m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02052</m:Key>
+                    <m:Value xsi:type="xs:string">Не найден склад по ссылки</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02051</m:Key>
+                    <m:Value xsi:type="xs:string">Отсутствует доступ к сервису складов</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05042</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код географии</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05183</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректный данные</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>02053</m:Key>
+                    <m:Value xsi:type="xs:string">Не найдены записи по переданным параметрам</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05098</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный код пункта выдачи заказов</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05099</m:Key>
+                    <m:Value xsi:type="xs:string">Данные не соотвествуют условиям ПВЗ</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05102</m:Key>
+                    <m:Value xsi:type="xs:string">Указан некорректный дополнитедбный код клиента</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05103</m:Key>
+                    <m:Value xsi:type="xs:string">Необходимо передать дургую дату забора для данного региона</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05104</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректная дата забора груза</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05105</m:Key>
+                    <m:Value xsi:type="xs:string">Некорректная дата доставки груза</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05066</m:Key>
+                    <m:Value xsi:type="xs:string">По условиям договора необходимо ограничен вес</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05199</m:Key>
+                    <m:Value xsi:type="xs:string">Не указано описание груза</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05028</m:Key>
+                    <m:Value xsi:type="xs:string">Указана некорректная сумма объяаленной стоимости</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>05029</m:Key>
+                    <m:Value xsi:type="xs:string">Указана некорректная сумма страхования</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+                <m:List>
+                    <m:Key>60818085</m:Key>
+                    <m:Value xsi:type="xs:string">Заказ не может быть размещен: число мест по заказу превышает установленное ограничение для ПВЗ</m:Value>
+                    <m:ValueType>string</m:ValueType>
+                </m:List>
+            </m:return>
+        </m:GetReferenceDataResponse>
+    </soap:Body>
+</soap:Envelope>
